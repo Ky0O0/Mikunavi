@@ -1,0 +1,806 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+}
+#language_ul_menu{
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	float: right;
+  	margin-top: -26px;
+  	z-index: 1;
+}
+#language_ul_menu2{
+	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	margin-top: -15px;
+}
+li{
+	width: 70px;
+	height: 20px;
+	padding: 15px 0px;
+	font-size: 11px;
+	font-weight: 700;
+	text-align: center;
+}
+.language_button{
+	width: 70px;
+	height: 20px;
+	padding: 15px 0px;
+	text-align: center;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-color: #D6197D;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+#index_hero{
+	background-image: url(images/bg_hero.png);
+	background-size: 300px;
+	z-index: 0;
+}
+#hero_container{
+	width: 100%;
+	height: 870px;
+}
+#hero_img{
+	width: 100%;
+	height: 370px;
+}
+.logo_mikunavi{
+	width: 200px;
+	height: 249px;
+	float: right;
+	margin-top: 60px;
+	margin-right: 250px;
+	z-index: 1;
+}
+#hero_text{
+	width: 100%;
+	height: 500px;
+	background-color: #F01160;
+}
+#miku_div{
+	width: 800px;
+	height: 860px;
+	background-image: url(images/main_miku.png);
+	background-repeat: no-repeat;
+	background-size: 700px;
+	position: absolute;
+	top: 10px;
+	left: -23px;
+	z-index: 0;
+	float: left;
+}
+#hero_device{
+	width: 290px;
+	height: 560px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top: -145px;
+}
+.device_top_img{
+	width: 100%;
+	height: 100%;
+}
+#hero_app{
+	width: 480px;
+	height: 500px;
+	float: right;
+	text-align: center;
+	margin-top: -560px;
+	margin-right: 175px;
+}
+.hero_img_title{
+	width: 100%;
+	height: 100%;
+	margin-top: 40px;
+}
+#app_images{
+	width: 390px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 65px;
+}
+.app_img{
+	width: 174px;
+	height: 50px;
+	float: left;
+	cursor: pointer;
+}
+#icon_launcher{
+	width: 100%;
+	height: 210px;
+	margin-top: 40px;
+	text-align: center;
+}
+.miku_launcher{
+	width: 100%;
+	height: 100%;
+}
+#index_function{
+	background: linear-gradient(to bottom, #FFC6D5 0, #FDD7E1 20%, #FFF5F7 100%);
+}
+#index_function2{
+	width: 100%;
+	height: 950px;
+	background-image: url(images/bg_grid.svg);
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#section_line1{
+	width: 100%;
+	height: 50px;
+	background-image: url(images/line.png);
+	background-size: 10px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#sec_copy{
+	width: 100%;
+	height: 380px;
+	margin-top: -40px;
+}
+#sec_copy2{
+	width: 380px;
+	height: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+	text-align: center;
+}
+#sec_copy2::after{
+	content: " ";
+	width: 308px;
+	height: 24px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	background-image: url(images/line_dia.svg);
+}
+.copy_text_img{
+	width: 450px;
+	height: 72px;
+	margin-top: 130px;
+	margin-left: -35px;
+}
+#function_clm{
+	width: 1200px;
+	height: 555px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -60px;
+}
+#function_lineup_event{
+	width: 360px;
+	height: 100%;
+	text-align: center;
+	float: left;
+}
+.device_event_img{
+	width: 216px;
+	height: 435px;
+}
+.lineup_text{
+	width: 100%;
+	height: 163px;
+	border-radius: 10px;
+	background-color: #F01160;
+	position: relative;
+	top: -50px;
+	left: 0;
+}
+.lineup_text::after{
+	content: "";
+	display: block;
+	width: 93px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -170px;
+	background-image: url(images/icon_event.svg);
+}
+.title_event_img{
+	width: 137px;
+	height: 40px;
+	margin-top: 40px;
+}
+#function_text_goods{
+	width: 360px;
+	height: 100%;
+	text-align: center;
+	float: left;
+	margin-left: 60px;
+}
+.device_goods_img{
+	width: 216px;
+	height: 435px;
+}
+.lineup_text2{
+	width: 100%;
+	height: 163px;
+	border-radius: 10px;
+	background-color: #F01160;
+	position: relative;
+	top: -50px;
+	left: 0;
+}
+.lineup_text2::after{
+	content: "";
+	display: block;
+	width: 93px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -170px;
+	background-image: url(images/icon_goods.svg);
+}
+.title_goods_img{
+	width: 137px;
+	height: 40px;
+	margin-top: 40px;
+}
+#function_lineup_news{
+	width: 360px;
+	height: 100%;
+	text-align: center;
+	float: left;
+	margin-left: 60px;
+}
+.device_news_img{
+	width: 216px;
+	height: 435px;
+}
+.lineup_text3{
+	width: 100%;
+	height: 163px;
+	border-radius: 10px;
+	background-color: #F01160;
+	position: relative;
+	top: -50px;
+	left: 0;
+}
+.lineup_text3::after{
+	content: "";
+	display: block;
+	width: 93px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -190px;
+	background-image: url(images/icon_news.svg);
+}
+.title_news_img{
+	width: 137px;
+	height: 40px;
+	margin-top: 40px;
+}
+#index_mile{
+	background: linear-gradient(to bottom, #FABD1F 0, #FEF962 20%, #FFFF93 100%);
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: -3;
+}
+#index_mile2{
+	width: 100%;
+	height: 950px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	background-image: url(images/bg_grid.svg);
+}
+#index_mile2::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: -200px;
+	left: 0;
+	background: url(images/bg_mile.png) center top;
+	background-repeat: no-repeat;
+	background-size: auto 130%;
+	z-index: -1;
+}
+#section_line2{
+	width: 100%;
+	height: 50px;
+	background-image: url(images/bg_line_mile.png);
+	background-size: 10px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#mile_container{
+	width: 1232px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mile_content1{
+	width: 500px;
+	height: 100%;
+	float: left;
+}
+#mile_copy{
+	width: 100%;
+	height: 380px;
+	margin-top: -40px;
+}
+#mile_copy2{
+	width: 380px;
+	height: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+}
+#mile_copy2::after{
+	content: " ";
+	width: 308px;
+	height: 24px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-image: url(images/line_dia.svg);
+}
+.copy_mile_img{
+	width: 320px;
+	height: 70px;
+	margin-top: 130px;
+	margin-left: 30px;
+}
+#div_image{
+	width: 83%;
+	height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/miku_mile.png);
+	background-repeat: no-repeat;
+	background-size: 420px;
+}
+#sec_right{
+	width: 720px;
+	height: 731px;
+	margin-top: 57px;
+	border: 6px #EFAC38 solid;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+	float: left;
+}
+#right_image{
+	width: 443px;
+	height: 98px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.icon_mile_image{
+	width: 100px;
+	height: 98px;
+	float: left;
+}
+.title_mile{
+	width: 343px;
+	height: 91px;
+	float: left;
+}
+#right_text{
+	width: 92%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+#right_image2{
+	width: 408px;
+	height: 440px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 33px;
+	text-align: center;
+}
+.device_mile_image{
+	width: 408px;
+	height: 440px;
+}
+#index_checkin{
+	background: linear-gradient(to bottom, #C9FFFD 0, #B3FAB0 20%, #CDFFCB 100%);
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: -3;
+}
+#index_checkin2{
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	background-image: url(images/bg_grid.svg);
+}
+#section_line3{
+	width: 100%;
+	height: 50px;
+	background-image: url(images/bg_line_checkin.png);
+	background-size: 10px;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+#checkin_container{
+	width: 1232px;
+	height: 897px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#checkin_content1{
+	width: 500px;
+	height: 100%;
+	float: left;
+}
+#checkin_copy{
+	width: 100%;
+	height: 380px;
+	margin-top: -40px;
+}
+#checkin_copy2{
+	width: 380px;
+	height: 380px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	background-color: #FFFFFF;
+}
+#checkin_copy2::after{
+	content: " ";
+	width: 308px;
+	height: 24px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-image: url(images/line_dia.svg);
+}
+.copy_checkin_img{
+	width: 320px;
+	height: 70px;
+	margin-top: 130px;
+	margin-left: 30px;
+}
+#div_image2{
+	width: 83%;
+	height: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -70px;
+	background-image: url(images/miku_checkin.png);
+	background-repeat: no-repeat;
+	background-size: 395px;
+}
+#checkin_present{
+	width: 83%;
+	height: 207px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+}
+#checkin_present_container{
+	width: 90%;
+	height: 71.5%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 30px;
+	left: 0;
+}
+#checkin_present_right{
+	width: 120px;
+	height: 148px;
+	float: left;
+}
+.miku_present_image{
+	width: 100%;
+	height: 100%;
+}
+#checkin_present_left{
+	width: 67.7%;
+	height: 100%;
+	float: left;
+}
+.title_checkin_present_image{
+	width: 176px;
+	height: 22px;
+}
+#checkin_content2{
+	width: 720px;
+	height: 833px;
+	margin-top: 52px;
+	border: 6px #4DD1A9 solid;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+	float: left;
+}
+#right_image3{
+	width: 450px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+.icon_checkin_img{
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+.title_checkin_img{
+	width: 360px;
+	height: 90px;
+	float: left;
+}
+#right_content2{
+	width: 628px;
+	height: 178px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+#right_content2_left{
+	width: 295px;
+	height: 178px;
+	text-align: center;
+	float: left;
+}
+.icon_checkin_qr_img{
+	width: 90px;
+	height: 90px;
+}
+#right_content2_right{
+	width: 305px;
+	height: 178px;
+	text-align: center;
+	float: right;
+}
+.icon_checkin_gps_img{
+	width: 90px;
+	height: 90px;
+}
+#detail_device_container{
+	width: 408px;
+	height: 440px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+.detail_device_img{
+	width: 408px;
+	height: 440px;
+}
+#footer_container{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+}
+#footer_container2{
+	width: 30%;
+	height: 355px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+#icon_launcher2{
+	width: 100%;
+	height: 165px;
+	text-align: center;
+}
+.footer_icon_launcher{
+	width: 120px;
+	height: 120px;
+	margin-top: 20px;
+}
+#banner_store{
+	width: 390px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+.footer_app_store{
+	width: 174px;
+	height: 50px;
+	margin-right: 42px;
+	float: left;
+}
+.footer_google_play{
+	width: 174px;
+	height: 50px;
+	float: left;
+}
+#footer_link{
+	width: 100%;
+	height: 25px;
+	margin-top: 30px;
+	text-align: center;
+}
+.footer_link_a{
+	color: #00BBD1;
+	margin-right: 20px;
+}
+.footer_link_a:hover{
+	text-decoration: underline;
+}
+.footer_link_a2{
+	color: #00BBD1;
+}
+.footer_link_a2:hover{
+	text-decoration: underline;
+}
+#footer_text{
+	width: 100%;
+	height: 40px;
+	margin-top: 20px;
+	text-align: center;
+}
+.logo_piapro_img{
+	width: 49px;
+	height: 12px;
+}
+#pageTop{
+	width: 70px;
+	height: 60px;
+	background-image: url(images/pagetop.svg);
+	background-size: 100% auto;
+	position: fixed;
+	right: 20px;
+	bottom:  20px;
+	cursor: pointer;
+	z-index: 1000;
+}
+@media screen and (max-width: 600px){
+	/*------index_hero------*/
+	#hero_container{
+		width: 100%;
+		height: 1100px;
+	}
+	#hero_img{
+		width: 100%;
+		height: 600px;
+	}
+	.logo_mikunavi{
+		width: 100px;
+		height: auto;
+		margin-right: 0px;
+	}
+	#hero_text{
+		width: 100%;
+		height: 500px;
+	}
+	#miku_div{
+		width: 500px;
+		height: 600px;
+		position: absolute;
+		top: 0;
+		left: -100px;
+		background-size: 500px;
+	}
+	#hero_device{
+		width: 180px;
+		height: 310px;
+		position: relative;
+		top: -380px;
+		left: 190px;
+	}
+	#hero_app{
+		width: 100%;
+		height: 100%;
+		position: relative;
+		top: 240px;
+		left: 165px;
+	}
+	/*------index_function------*/
+	#index_function2{
+		width: 100%;
+		height: 2200px;
+	}
+	#function_clm{
+		width: 100%;
+		height: 1800px;
+		text-align: center;
+	}
+	#function_lineup_event{
+		height: 500px;
+		position: relative;
+		top: 20px;
+		left: 100px;
+	}
+	#function_text_goods{
+		height: 500px;
+		position: relative;
+		top: 120px;
+		left: 40px;
+	}
+	#function_lineup_news{
+		height: 500px;
+		position: relative;
+		top: 215px;
+		left: 40px;
+	}
+	/*------index_mile------*/
+	#index_mile2{
+		width: 100%;
+		height: 1600px;
+	}
+	#mile_container{
+		width: 100%;
+		height: 1500px;
+	}
+	#mile_content1{
+		height: 800px;
+		position: relative;
+		top: 0;
+		left: 50px;
+	}
+	#sec_right{
+		width: 90%;
+		position: relative;
+		top: -85px;
+		left: 25px;
+	}
+	/*------index_checkin------*/
+	#index_checkin2{
+		width: 100%;
+		height: 1900px;
+	}
+	#checkin_container{
+		width: 100%;
+		height: 1800px;
+	}
+	#checkin_content1{
+		width: 100%;
+		height: 900px;
+	}
+	#checkin_content2{
+		width: 90%;
+		height: 833px;
+		position: relative;
+		top: 0;
+		left: 25px;
+	}
+	#right_content2{
+		width: 100%;
+	}
+	#right_content2_left{
+		width: 235px;
+		height: 190px;
+	}
+	#right_content2_right{
+		width: 235px;
+		height: 190px;
+	}
+	/*------footer------*/
+	#footer_container2{
+		width: 100%;
+	}
+}

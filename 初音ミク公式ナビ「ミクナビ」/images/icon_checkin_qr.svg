@@ -1,0 +1,18 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90" width="90" height="90">
+<style type="text/css">
+	.st0{fill:#26BCB2;}
+</style>
+<rect x="37.1" y="5.5" class="st0" width="15.8" height="15.8"/>
+<path class="st0" d="M37.1,21.3h-6.8V5.5H5.5v24.8h15.8v6.8h15.8V21.3z M9.6,26.3V9.6h16.7v11.7h-3.6v-8.2h-9.6v9.6h8.2v3.6
+	L9.6,26.3z"/>
+<rect x="5.5" y="37.1" class="st0" width="15.8" height="15.8"/>
+<rect x="37.1" y="37.1" class="st0" width="15.8" height="15.8"/>
+<rect x="68.7" y="37.1" class="st0" width="15.8" height="15.8"/>
+<path class="st0" d="M21.3,52.9v6.8H5.5v24.8h24.8V68.7h6.8V52.9H21.3z M26.3,80.4H9.6V63.7h11.7v3.6h-8.2v9.6h9.6v-8.2h3.6
+	L26.3,80.4z"/>
+<rect x="52.9" y="52.9" class="st0" width="15.8" height="15.8"/>
+<rect x="37.1" y="68.7" class="st0" width="15.8" height="15.8"/>
+<rect x="68.7" y="68.7" class="st0" width="15.8" height="15.8"/>
+<path class="st0" d="M59.7,21.3h-6.8v15.8h15.8v-6.8h15.8V5.5H59.7V21.3z M80.4,9.6v16.7H68.7v-3.6h8.2v-9.6h-9.6v8.2h-3.6V9.6H80.4
+	z"/>
+</svg>
